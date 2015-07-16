@@ -26,46 +26,42 @@ public class RadioTest {
 		assertEquals(10,pruebaRadio.getEmisora(),0);
 	}
 
-	@Test
-	public void testCambiarFrec() {
-		Radio pruebaRadio = new Radio();
-		pruebaRadio.cambiarFrec();
-	}
-
-	@Test
-	public void testCargarEmisora() {
-		Radio pruebaRadio = new Radio();
-		pruebaRadio.cambiarFrec();
-	}
 
 	@Test
 	public void testAdelantarEmisora() {
-		fail("Not yet implemented");
+		Radio pruebaRadio = new Radio();	
+		pruebaRadio.adelantarEmisora();
+		assertEquals(0.2,pruebaRadio.getEmisora(),0);
 	}
 
 	@Test
 	public void testAtrasarEmisora() {
-		fail("Not yet implemented");
+		Radio pruebaRadio = new Radio();	
+		pruebaRadio.atrasarEmisora();
+		assertEquals(-0.2,pruebaRadio.getEmisora(),0);
 	}
 
 	@Test
 	public void testGuardarEmisora() {
-		fail("Not yet implemented");
+		Radio pruebaRadio = new Radio();
+		pruebaRadio.setEmisora(90.1);
+		pruebaRadio.guardarEmisora(0, 1);
+		assertEquals(90.1,pruebaRadio.getMemoria(0, 0),0);
 	}
 
 	@Test
 	public void testSubirVolumen() {
-		fail("Not yet implemented");
+		Radio pruebaRadio = new Radio();
+		pruebaRadio.subirVolumen();
+		assertEquals(1,pruebaRadio.getVolumen(),0);
 	}
 
 	@Test
 	public void testBajarVolumen() {
-		fail("Not yet implemented");
+		Radio pruebaRadio = new Radio();
+		pruebaRadio.bajarVolumen();
+		assertEquals(0,pruebaRadio.getVolumen(),0);
 	}
 
-	@Test
-	public void testToString() {
-		fail("Not yet implemented");
-	}
 
 }
