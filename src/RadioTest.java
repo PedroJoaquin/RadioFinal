@@ -27,53 +27,9 @@ public class RadioTest {
 	}
 
 	@Test
-	public void testSetEncendido() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testSetFrecuencia() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testSetMEmoria() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetVolumen() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetEmisora() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetFrecuencia() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetEncendido() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetMemoria() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testEncenderApagar() {
-		fail("Not yet implemented");
-	}
-
-	@Test
 	public void testCambiarFrec() {
-		fail("Not yet implemented");
+		Radio pruebaRadio = new Radio();
+		pruebaRadio.cambiarFrec();
 	}
 
 	@Test
