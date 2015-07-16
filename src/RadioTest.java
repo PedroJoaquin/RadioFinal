@@ -34,7 +34,8 @@ public class RadioTest {
 
 	@Test
 	public void testCargarEmisora() {
-		fail("Not yet implemented");
+		Radio pruebaRadio = new Radio();
+		pruebaRadio.cambiarFrec();
 	}
 
 	@Test
